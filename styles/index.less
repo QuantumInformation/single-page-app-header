@@ -1,0 +1,32 @@
+/*the common stuff */
+@import "constants";
+@import "mediaQueryClasses";
+@import "../components/header/header";
+
+
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: @minSiteWidth;
+  color: @basicText;
+}
+
+a{
+  color: @linkColour;
+}
+#container {
+  flex: 1;
+  background-color: #1a1a1a;
+}
+
+#main-container {
+  margin: 60px auto 20px auto;
+  max-width: @siteWidth;
+  padding: 0 @applicationPadding;
+  overflow: hidden;
+  h2, h3, h4 {
+    text-align: center;
+    color: white;
+  }
+}
+

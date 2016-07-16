@@ -1,0 +1,24 @@
+{
+  "name": "single-page-app-header",
+  "version": "0.1.0",
+  "description": "A header that can be used for a generic responsive web application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumInformation/single-page-app-header.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuantumInformation/single-page-app-header/issues"
+  },
+  "homepage": "https://github.com/QuantumInformation/single-page-app-header#readme",
+  "dependencies": {
+    "normalize.css": "^4.2.0",
+    "steal": "^0.16.24"
+  }
+}

@@ -1,0 +1,5 @@
+.idea/
+node_modules/
+!/public/node_modules/steal
+public/node_modules
+public/index.html
